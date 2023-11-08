@@ -1,0 +1,77 @@
+.container-chat{
+    width: 400px;
+    background-image: url('/imgs/chatimg.png');
+    background-size: cover;
+    height: 96vh;
+    padding-top: 1.5rem;
+    margin: 0 auto;
+    img{
+        width: 1.8rem;
+        border-radius: 50%;
+        background-color: white;
+        padding: .5rem;
+        display: block;
+        cursor: pointer;
+        margin: 0 20px;
+    }
+    h1{
+        width: 100%;
+        text-align: center;
+        margin: 2rem 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 35px;
+    }
+    .container-mensajes{
+        border: 1px solid;
+        width: 80%;
+        height: 60vh;
+        display: grid;
+        gap: 2rem;
+        grid-template-rows: 80% 20%;
+        padding: 1rem;
+        overflow: hidden;
+        margin: 0 auto;
+        ul{
+            margin: 0;
+            padding: 0 ;
+            display: flex;
+            gap: 1rem;
+            flex-direction: column;
+            justify-content: end;
+            list-style: none;
+            font-family: Arial, Helvetica, sans-serif;
+            li{
+                background-color: rgb(52, 255, 153);
+        width: 60%;
+        margin: 0px 0px 0px 5rem;
+        font-size: 17px;
+        text-align: end;
+        padding: 0.4rem 1rem;
+        border-radius: 9px;
+                
+            }
+        }
+        div{
+            border: 3px solid ;
+            height: 3rem;
+            border-radius: 50px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin-bottom: 1rem;
+            input{
+                width: 13rem;
+                margin-left: 1rem;
+                height: 1rem;
+                font-size: 1rem;
+                background: transparent;
+                border: none;
+                outline: none;
+            }
+            img{
+                width: 1.6rem;
+                margin: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,286 @@
+.container-login {
+  width: 400px;
+  background-image: url(/imgs/backimage.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding-top: 10rem;
+  margin: 0 auto;
+}
+.container-login .title-sing-up {
+  margin: 0;
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 35px;
+}
+.container-login .form {
+  width: 100%;
+}
+.container-login .form input {
+  display: block;
+  margin: 25px auto;
+  width: 55%;
+  padding: 8px 17px;
+  border-radius: 12px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+.container-login .form .message-error {
+  width: 55%;
+  padding: 10px 20px;
+  color: white;
+  margin: 1rem auto 0;
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+  background-color: red;
+  border-radius: 12px;
+  display: none;
+}
+.container-login .form button {
+  padding: 12px 30px;
+  font-size: 16px;
+  width: 30%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 15px;
+  margin-top: 54px;
+  cursor: pointer;
+  background-color: rgb(6, 6, 82);
+  color: white;
+  border: none;
+}
+.container-login .title-tutorias {
+  text-align: center;
+}
+
+.container-main {
+  width: 400px;
+  background-image: url(/imgs/tutoriaimg.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding-top: 6rem;
+  margin: 0 auto;
+}
+.container-main .title-tutorias {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 35px;
+}
+.container-main .container-options {
+  width: 80%;
+  margin: 4rem auto 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.container-main .container-options div img {
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  padding: 1rem;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.container-main .container-options div img:hover {
+  scale: 1.2;
+}
+.container-main .container-options div p {
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container-schedule {
+  width: 400px;
+  height: 100vh;
+  background-image: url("/imgs/scheduleimgjpg.jpg");
+  background-size: cover;
+  padding-top: 1.5rem;
+  margin: 0 auto;
+}
+.container-schedule img {
+  width: 2rem;
+  border-radius: 50%;
+  background-color: white;
+  padding: 0.5rem;
+  display: block;
+  cursor: pointer;
+  margin: 0 20px;
+}
+.container-schedule .title-schedule {
+  width: 100%;
+  text-align: center;
+  margin: 2rem 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+}
+.container-schedule .form-schedule {
+  margin-top: 3rem;
+}
+.container-schedule .form-schedule input {
+  display: block;
+  width: 60%;
+  margin: 1rem auto;
+  padding: 8px 20px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: none;
+  outline: none;
+}
+.container-schedule .form-schedule textarea {
+  margin: 0 auto;
+  display: block;
+  border: none;
+  outline: none;
+  width: 60%;
+  border-radius: 12px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 8px 20px;
+}
+.container-schedule .form-schedule .container-message-warning {
+  border-radius: 10px;
+  width: 70%;
+  background-color: rgba(231, 219, 46, 0.87);
+  margin: 1rem auto 0;
+  align-items: center;
+  padding: 0;
+  display: none;
+}
+.container-schedule .form-schedule .container-message-warning p {
+  margin: 0;
+  font-size: 14px;
+}
+.container-schedule .form-schedule .container-message-warning img {
+  width: 1.4rem;
+  background-color: transparent;
+  padding: 0;
+  margin-left: 2rem;
+}
+.container-schedule .form-schedule button {
+  padding: 12px 35px;
+  font-size: 15px;
+  width: 40%;
+  margin: 18px auto 0;
+  display: block;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+}
+
+.container-chat {
+  width: 400px;
+  background-image: url("/imgs/chatimg.png");
+  background-size: cover;
+  height: 96vh;
+  padding-top: 1.5rem;
+  margin: 0 auto;
+}
+.container-chat img {
+  width: 1.8rem;
+  border-radius: 50%;
+  background-color: white;
+  padding: 0.5rem;
+  display: block;
+  cursor: pointer;
+  margin: 0 20px;
+}
+.container-chat h1 {
+  width: 100%;
+  text-align: center;
+  margin: 2rem 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 35px;
+}
+.container-chat .container-mensajes {
+  border: 1px solid;
+  width: 80%;
+  height: 60vh;
+  display: grid;
+  gap: 2rem;
+  grid-template-rows: 80% 20%;
+  padding: 1rem;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.container-chat .container-mensajes ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: end;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-chat .container-mensajes ul li {
+  background-color: rgb(52, 255, 153);
+  width: 60%;
+  margin: 0px 0px 0px 5rem;
+  font-size: 17px;
+  text-align: end;
+  padding: 0.4rem 1rem;
+  border-radius: 9px;
+}
+.container-chat .container-mensajes div {
+  border: 3px solid;
+  height: 3rem;
+  border-radius: 50px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.container-chat .container-mensajes div input {
+  width: 13rem;
+  margin-left: 1rem;
+  height: 1rem;
+  font-size: 1rem;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.container-chat .container-mensajes div img {
+  width: 1.6rem;
+  margin: 0;
+}
+
+.container-vertuto {
+  width: 400px;
+  background-image: url("/imgs/vertuto.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding-top: 1.5rem;
+  margin: 0 auto;
+}
+.container-vertuto img {
+  width: 1.8rem;
+  border-radius: 50%;
+  background-color: white;
+  padding: 0.5rem;
+  display: block;
+  margin: 0 20px;
+  cursor: pointer;
+}
+.container-vertuto h1 {
+  text-align: center;
+  margin: 12rem 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.7rem;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=styles.css.map */

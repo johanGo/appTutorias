@@ -1,0 +1,60 @@
+.container-login{
+    width: 400px;
+    background-image: url(/imgs/backimage.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding-top: 10rem;
+    margin: 0 auto;
+    .title-sing-up{
+        margin: 0;
+        color: white;
+        text-align: center;
+        // margin-top: 290px;
+        margin-bottom: 3rem;
+        font-size: 35px;
+        // border:1px solid red;
+    }
+    .form{
+        // background-color: red;
+        width: 100%;
+        input{
+            display: block;
+            margin: 25px auto;
+            width: 55%;
+            padding: 8px 17px;
+            border-radius: 12px;
+            font-size: 14px;
+            border: none;
+            outline: none;
+        }
+        .message-error{
+            width: 55%;
+            padding: 10px 20px;
+            color: white;
+            margin: 1rem auto 0;
+            text-align: center;
+            font-size: 15px;
+            font-family: sans-serif;
+            background-color: red;
+            border-radius: 12px;
+            display: none;
+        }
+        button{
+            padding: 12px 30px;
+            font-size: 16px;
+            width: 30%;
+            margin: 0 auto;
+            display: block;
+            border-radius: 15px;
+            margin-top: 54px;
+            cursor: pointer;
+            background-color: rgb(6, 6, 82);
+            color: white;
+            border: none;
+        }
+    }
+    
+    .title-tutorias{
+        text-align: center;
+    }
+}
